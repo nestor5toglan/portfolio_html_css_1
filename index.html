@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--titre-->
+        <title>LGK SocialBook - Easy to connect people</title>
+        <!--lien css-->
+        <link rel="stylesheet" href="./style.css">
+
+        <script src="https://kit.fontawesome.com/ac328406e2.js" crossorigin="anonymous"></script>
+ 
+
+    </head>
+    <body>
+        <!-- établissement de la barre de navigation -->
+        <nav>
+            <div class="nav-left">
+                
+                <a href="index.html">
+                    <img src="./images/LGK LOGO BLANC.png" class="logo"><br><p style="color:#fff;" class="portfolio">|PORTFOLIO</p>
+                </a>
+                <!--liste des icones de notifications -->
+                <ul>
+                    <li><img src="./images/notification.png"></li>
+                    <li><img src="./images/inbox.png"></li>
+                    <li><img src="./images/video.png"></li>
+                </ul>
+            </div>
+            <div class="nav-rigth">
+                <div class="search-box">
+                    <img src="./images/search.png">
+                    <input type="text" placeholder="Search">
+
+                </div>
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                    <img src="./images/bannerlgk.jpg">
+                </div>
+
+            </div>
+            <!----------------- dropdown-seetings-menu ------------------>
+
+            <div class="settings-menu">
+
+
+                <div id="dark-btn">
+                    <span></span>
+
+                </div>
+
+
+                <div class="setting-menu-inner">
+
+                    <div class="user-profile">
+                        <img src="./images/bannerlgk.jpg">
+                        <div class="">
+                            <p>LGK SERVICE</p>
+                            <a href="profile.html">Voir le profile</a>
+                        </div>
+                    </div>
+                    <hr>
+    
+                    <div class="user-profile">
+                        <img src="./images/feedback.png">
+                        <div class="">
+                            <p>Give feedback</p>
+                            <a href="#">Help us to improve the new design</a>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="settings-links">
+                        <img src="./images/setting.png" class="settings-icon">
+                        <a href="#">Setting & Privacy  <img src="./images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="./images/help.png" class="settings-icon">
+                        <a href="#">Help & Support  <img src="./images/arrow.png" width="10px"></a>
+                    </div>
+
+                    <div class="settings-links">
+                        <img src="./images/display.png" class="settings-icon">
+                        <a href="#">Display & Accessbility <img src="./images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="./images/logout.png" class="settings-icon">
+                        <a href="#">Logout <img src="./images/arrow.png" width="10px"></a>
+                    </div>
+    
+
+                </div>
+
+                
+
+            </div>
+
+        </nav>
+
+        <div class="container">
+            <!------------------------------------left-sidebar------------------------------------------------->
+            <div class="left-sidebar">
+                <div class="imp-links">
+                    <a href="#"><img src="./images/news.png" >Dernières nouvelles</a>
+                    <a href="#"><img src="./images/friends.png" >Amis</a>
+                    <a href="#"><img src="./images/group.png" >Groupes</a>
+                    <a href="#"><img src="./images/marketplace.png" >Marketplace</a>
+                    <a href="#"><img src="./images/watch.png" >Voir</a>
+                    <a href="#">Voir plus</a>
+                </div>
+                <div class="shortcut-links">
+                    <p>Votre raccourcis</p>
+                    <a href="#"><img src="./images/Business-stationery-free-mockup-by-mockupcloud.jpg">Business-stationery </a>
+                    <a href="#"><img src="./images/DUNYA LOGO A NOIR.jpg">DUNYA logo à noir </a>
+                    <a href="#"><img src="./images/Opening coffee 4.jpg">Opening coffee  </a>
+                    <a href="#"><img src="./images/NVEL AN APSONIC.jpg">Nouvel an APSONIC </a>
+                  
+
+
+
+                </div>
+
+            </div>
+            
+
+
+
+            <!------------------------------------main-content------------------------------------------------->
+             <div class="main-content">
+                <div class="story-gallery">
+                    <div class="story story1">
+                        <img src="./images/upload.png">
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story story2">
+                        <img src="./images/bannerlgk.jpg">
+                        <p>Kakimono</p>
+                    </div>
+                    <div class="story story3">
+                        <img src="./images/bannerlgk.jpg">
+                        <p>Le griot</p>
+                    </div>
+                    <div class="story story4">
+                        <img src="./images/bannerlgk.jpg">
+                        <p>Afrique commerce</p>
+                    </div>
+                    <div class="story story5">
+                        <img src="./images/bannerlgk.jpg">
+                        <p>Le griot flyers</p>
+                    </div>
+                </div>
+
+
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="./images/bannerlgk.jpg">
+                        <div class="">
+                            <p>LGK SERVICE</p>
+                            <small>Public <i class="fa-solid fa-caret-down"></i> </small>
+                        </div>
+                    </div>
+
+                    <div class="post-input-container">
+                        <textarea  rows="3" placeholder="Que pensez-vous du design ?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#" ><img src="./images/live-video.png"> Live video </a>
+                            <a href="#" ><img src="./images/photo.png"> Photo/Video </a>
+                            <a href="#" ><img src="./images/feeling.png"> Feling/Activity</a>
+
+                        </div>
+
+                    </div>
+
+                 </div>
+
+                 <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./images/bannerlgk.jpg">
+                            <div class="">
+                                <p>LGK SERVICE</p>
+                                <span>juin 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+                    
+                    <p class="post-text">Souscrire <span> à </span>  notre chaîne youtube pour plus en UI design.
+                        <a href="#">#LGK SERVICE</a>  <a href="#">#Chaineyoutube</a>
+                    </p><img src="./images/Mock-up_Id_5.jpg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like-blue.png" >120</div>
+                            <div><img src="./images/comments.png" >120</div>
+                            <div><img src="./images/share.png" >120</div>
+
+
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./images/bannerlgk.jpg"><i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                            
+
+                    </div>
+
+                 </div>
+
+
+
+
+
+                 <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./images/bannerlgk.jpg">
+                            <div class="">
+                                <p>LGK SERVICE</p>
+                                <span>juin 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+                    
+                    <p class="post-text">Aimez et partager <span> @LGK design</span> Sur vos page facebook.
+                       Posez vos questions en commentaire!
+                        <a href="#">#LGK SERVICE</a>  <a href="#">#YoutubeChannel</a>
+                    </p><img src="./images/Mockup_trifold_square_6.jpg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like.png" >120</div>
+                            <div><img src="./images/comments.png" >45</div>
+                            <div><img src="./images/share.png" >20</div>
+
+
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./images/bannerlgk.jpg"><i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                            
+
+                    </div>
+
+                 </div>
+
+
+
+
+
+                 <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./images/bannerlgk.jpg">
+                            <div class="">
+                                <p>LGK SERVICE</p>
+                                <span>juin 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+                    
+                    <p class="post-text">Aimez et partager la video avec les amis<span> @LGK SERVICE</span> et sur les pages facebook.
+                        Posez vos questions en commentaire!
+                        <a href="#">#LGK SERVICE</a>  <a href="#">#ChaîneYoutube</a>
+                    </p><img src="./images/Mug_Mockup_4.jpg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like.png" >120</div>
+                            <div><img src="./images/comments.png" >45</div>
+                            <div><img src="./images/share.png" >20</div>
+
+
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./images/bannerlgk.jpg"><i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                            
+
+                    </div>
+
+                 </div>
+
+
+
+
+                 <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./images/bannerlgk.jpg">
+                            <div class="">
+                                <p>LGK SERVICE</p>
+                                <span>juin 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+                    
+                    <p class="post-text">Aimez et partager la video avec les amis<span> @LGK SERVICE</span> et sur les pages facebook.
+                        Posez vos questions en commentaire!
+                        <a href="#">#LGK SERVICE</a>  <a href="#">#ChaîneYoutube</a>
+                    </p><img src="./images/RTM MOCKUP.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like.png" >120</div>
+                            <div><img src="./images/comments.png" >45</div>
+                            <div><img src="./images/share.png" >20</div>
+
+
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./images/bannerlgk.jpg"><i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                            
+
+                    </div>
+
+                 </div>
+
+
+
+
+                 <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./images/bannerlgk.jpg">
+                            <div class="">
+                                <p>LGK SERVICE</p>
+                                <span>juin 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+                    
+                    <p class="post-text">Aimez et partager la video avec les amis<span> @LGK SERVICE</span> et sur les pages facebook.
+                        Posez vos questions en commentaire!
+                        <a href="#">#LGK SERVICE</a>  <a href="#">#ChaîneYoutube</a>
+                    </p><img src="./images/photo_2023-01-06_09-24-53.jpg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="./images/like.png" >120</div>
+                            <div><img src="./images/comments.png" >45</div>
+                            <div><img src="./images/share.png" >20</div>
+
+
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="./images/bannerlgk.jpg"><i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+                            
+
+                    </div>
+
+                 </div>
+
+
+                 <button type="button" class="load-more-btn">Charger plus</button>
+    
+
+    
+
+    
+
+    
+
+    
+
+
+             </div>
+
+
+             
+
+
+             <!------------------------------------right sidebar------------------------------------------------->
+            <div class="right-sidebar">
+                <div class="sidebar-title">
+                    <h4>Evenements</h4>
+                    <a href="#">Voir tout</a>
+                </div>
+                <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>Mars</span>
+                </div>
+                    <div class="right-event">
+                        <h4>Media Social</h4>
+                         <p><i class="fa-sharp fa-solid fa-location-dot"> </i>  Wilson Tech Park</p>
+                        <a href="#">Plus d'informations</a>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>22</h3>
+                        <span>Juin</span>
+                    </div>
+                        <div class="right-event">
+                            <h4>Mobile Marketing</h4>
+                             <p><i class="fa-sharp fa-solid fa-location-dot"></i>  Wilson Tech Park</p>
+                            <a href="#">Plus d'informations</a>
+                        </div>
+                    </div>
+                    <div class="sidebar-title">
+                        <h4>Publicités</h4>
+                        <a href="#">Fermer</a>
+                    </div>
+                    <img src="./images/Logo africommerce.jpg" class="sidebar-ads" >
+                    <div class="sidebar-title">
+                        <h4>Conversation</h4>
+                        <a href="#">Cacher la discussion</a>
+                    </div>
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="./images/member-1.png">
+
+                        </div>
+                        <p>Alison Mina </p>
+                    </div>
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="./images/member-2.png">
+
+                        </div>
+                        <p>Jackson Aston </p>
+                    </div>
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="./images/member-3.png">
+
+                        </div>
+                        <p>Samona Rose</p>
+                    </div>
+                
+
+
+            </div>
+
+           
+
+
+        </div>
+
+        <div class="footer">
+            <p>Copyright 2022 - Easy Powered by NEXTECH 
+        </div>
+
+        <script src="./scripts.js"></script>
+
+    </body>
+</html>
+
